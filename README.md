@@ -38,8 +38,8 @@ python3 monitor.py -H <server_ip> -p <ssh_port> -u <username> -psw <password> -d
 # Basic usage
 python3 monitor.py -H 192.168.1.100 -u root -psw your_password -d /root/.openclaw/agents/main/sessions
 
-# With custom SSH port
-python3 monitor.py -H 47.80.18.14 -p 2222 -u root -psw your_password -d /root/.openclaw/agents/main/sessions
+# With custom SSH port (e.g., 2222)
+python3 monitor.py -H your.server.ip -p 2222 -u root -psw your_password -d /root/.openclaw/agents/main/sessions
 ```
 
 ## Session Directory
@@ -103,8 +103,8 @@ python3 monitor.py -H <服务器IP> -p <SSH端口> -u <用户名> -psw <密码> 
 # 基本用法
 python3 monitor.py -H 192.168.1.100 -u root -psw your_password -d /root/.openclaw/agents/main/sessions
 
-# 自定义 SSH 端口
-python3 monitor.py -H 47.80.18.14 -p 2222 -u root -psw your_password -d /root/.openclaw/agents/main/sessions
+# 自定义 SSH 端口（如 2222）
+python3 monitor.py -H 你的服务器IP -p 2222 -u root -psw your_password -d /root/.openclaw/agents/main/sessions
 ```
 
 ## 会话目录
