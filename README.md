@@ -47,6 +47,8 @@ python3 monitor.py -H 192.168.1.100 -p 22 -u root -psw your_password -d /root/.o
 
 ## 界面预览
 
+![Demo](demo.png)
+
 ```
 ══════════════════════════════════════════════════════════════════════
                OPENCLAW MONITOR: 192.168.1.100
